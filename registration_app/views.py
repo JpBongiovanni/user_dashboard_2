@@ -3,7 +3,7 @@ from django.contrib import messages
 from .models import User
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "home_page.html")
 
 def register(request):
     if request.method == "GET":
